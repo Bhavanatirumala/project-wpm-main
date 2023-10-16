@@ -1,0 +1,61 @@
+/* Apply background color to the body */
+body {
+    background-color: #1f2651;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Style the form container */
+  .search-box {
+    background-color: rgba(31, 38, 81, 0.5); /* Semi-transparent blue */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Style the input field */
+  #city-input,
+  #unit-select,
+  #search-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  #search-button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the submit button on hover */
+  #search-button:hover {
+    background-color: #1976D2;
+  }
+  
+  /* Center the weather data */
+  .weather-data {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  /* Style the title */
+  .app-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  

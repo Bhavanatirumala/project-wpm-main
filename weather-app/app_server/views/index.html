@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="/stylesheets/styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="left-navbar">
+        <div class="logo">
+          <img src="#/images/logo.png" alt="Logo">
+        </div>
+      </div>
+      <div class="center-navbar">
+        <h1>Weather-Forecast</h1>
+      </div>
+      <div class="right-navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <form id="weather-form" method="post">
+      <div class="search-box">
+        <input type="text" id="city-input" placeholder="Enter City">
+        <select id="unit-select">
+          <option value="metric">Metric</option>
+          <option value="imperial">Imperial</option>
+          <option value="standard">Standard</option>
+        </select>
+        <div class="button-container">
+            <button type="submit" id="search-button">Search</button>
+
+        </div>
+      </div>
+    </form>
+    <br><br>
+    <div class="weather-info">
+        <h2>Weather Information</h2>
+        <p id="city-name"></p>
+        <p id="temperature"></p>
+        <p id="description"></p>
+      </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
